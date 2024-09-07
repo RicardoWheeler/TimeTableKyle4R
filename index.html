@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="landing-page">
+      <div class="page-title">
+        <div class="logo-image"><img src="wolmers-logo-200x232.png" width="200" height="232"></div>
+        <h2>KYLE'S TIMETABLE</h2>
+      </div> 
+        <button onclick="navigateTo('screen1')">MONDAY</button>
+        <button onclick="navigateTo('screen2')">TUESDAY</button>
+        <button onclick="navigateTo('screen3')">WEDNESDAY</button>
+        <button onclick="navigateTo('screen4')">THURSDAY</button>
+        <button onclick="navigateTo('screen5')">FRIDAY</button>
+        <button onclick="navigateTo('screen6')">SATURDAY</button>
+        <button onclick="navigateTo('screen7')">SUNDAY</button>
+        </div>
+
+
+    <div id="screen1" class="screen">
+        <button class="back-button" onclick="navigateTo('landing-page')">WEEK</button>
+        <div class="image">
+        </div>
+        <h1>MONDAY</h1>
+            <div class="period">
+            <div class="times">TIME: 8:05am - 9:25am</div>
+            <div class="subject">SUBJECT: MATHEMATICS</div>
+            <div class="room">ROOM: 4O</div>
+            <div class="teacher"><span class="bold-text1">TEACHER: </span>MS. O. SHYIKO</div>
+        </div>
+        <div class="period">
+          <div class="times">TIME: 9:25am - 10:05am</div>
+          <div class="subject">LUNCH BREAK</div>
+          <div class="room">ROOM: NONE</div>
+        <div class="teacher">TEACHER: NONE</div>
+        </div>
+       <div class="period">
+        <div class="times">TIME: 10:05am - 10:45am</div>
+        <div class="subject">SUBJECT: PHYSICS</div>
+        <div class="room">ROOM: 4M</div>
+        <div class="teacher">TEACHER: MR. O. WILLIAMS</div>
+      </div>
+      <div class="period">
+        <div class="times">TIME: 11:25am - 12:45pm</div>
+        <div class="subject">SUBJECT: LITERATURE</div>
+        <div class="room">ROOM: 4W</div>
+        <div class="teacher">TEACHER: MRS. MCLEARY-OUTAR</div>
+      </div>
+      <div class="period">
+        <div class="times">TIME: 12:45am - 2:05pm</div>
+        <div class="subject">SUBJECT: POB</div>
+        <div class="room">ROOM: 4E</div>
+        <div class="teacher">TEACHER: MS. S. JOHNSON</div>
+      </div> 
+        <button class="nav-button next" onclick="navigateTo('screen2')">Next</button>
+    </div>
+
+    <div id="screen2" class="screen">
+        <button class="back-button" onclick="navigateTo('landing-page')">Home</button>
+        <div class="image">
+        </div>
+        <h1>TUESDAY</h1>
+            <div class="period">
+            <div class="times">TIME: 8:05am - 9:25am</div>
+            <div class="subject">INFORMATION TECHNOLOGY</div>
+            <div class="room">ROOM: CL2</div>
+            <div class="teacher"><span class="bold-text1">TEACHER: </span>MR. D. BLACKWOOD</div>
+        </div>
+        <div class="period">
+          <div class="times">TIME: 9:25am - 10:25am</div>
+          <div class="subject">ENGLISH LANGUAGE</div>
+          <div class="room">ROOM: 4L</div>
+        <div class="teacher">TEACHER: MS. I. JOSEPH
+        </div>
+        </div>
+       <div class="period">
+        <div class="times">TIME: 10:25am - 11:25am</div>
+        <div class="subject">BREAK</div>
+        <div class="room">ROOM: NONE</div>
+        <div class="teacher">TEACHER: NONE</div>
+      </div>
+      <div class="period">
+        <div class="times">TIME: 11:25am - 12:45pm</div>
+        <div class="subject">PHYSICS</div>
+        <div class="room">ROOM: 4M</div>
+        <div class="teacher">TEACHER: MR. O. WILLIAMS</div>
+      </div>
+      <div class="period">
+        <div class="times">TIME: 12:45am - 1:25pm</div>
+        <div class="subject">MATHEMATICS</div>
+        <div class="room">ROOM: 17A</div>
+        <div class="teacher">TEACHER: MS. O. SHYIKO</div>
+      </div>
+      <div class="period">
+        <div class="times">TIME: 1:25am - 2:05pm</div>
+        <div class="subject">ECONOMICS</div>
+        <div class="room">ROOM: 17B</div>
+        <div class="teacher">TEACHER: MS. M. MANNING</div>
+      </div>
+        <button class="nav-button previous" onclick="navigateTo('screen1')">Previous</button>
+        <button class="nav-button next" onclick="navigateTo('screen3')">Next</button>
+    </div>
+
+    <div id="screen3" class="screen">
+      <button class="back-button" onclick="navigateTo('landing-page')">Home</button>
+      <div class="image">
+      </div>
+
+      <h1>WEDNESDAY</h1>
+          <div class="period">
+          <div class="times">TIME: 8:05am - 9:25am</div>
+          <div class="subject">SUBJECT: SPANISH</div>
+          <div class="room">ROOM: JBL</div>
+          <div class="teacher"><span class="bold-text1">TEACHER: </span>MR. E. MORRELL</div>
+      </div>
+<!--
+      <div class="period">
+        <div class="times">TIME: 9:25am - 10:05am</div>
+        <div class="subject">FORM TIME</div>
+        <div class="room">ROOM: 4R</div>
+      <div class="teacher">TEACHER: MR. A ROQUE</div>
+      </div>
+-->
+      <div class="period">
+        <div class="times">TIME: 9:25am - 10:45am</div>
+        <div class="subject">ECONOMICS</div>
+        <div class="room">ROOM: 17B</div>
+      <div class="teacher">TEACHER: MS. M MANNING</div>
+      </div>
+     <div class="period">
+      <div class="times">TIME: 10:45am - 11:25am</div>
+      <div class="subject">BREAK</div>
+      <div class="room">ROOM: NONE</div>
+      <div class="teacher">TEACHER: NONE</div>
+    </div>
+    <div class="period">
+      <div class="times">TIME: 11:25am - 12:05pm</div>
+      <div class="subject">SUBJECT: INFO TECH</div>
+      <div class="room">ROOM: CL2</div>
+      <div class="teacher">TEACHER: MR. D. BLACKWOOD</div>
+    </div>
+    <div class="period">
+      <div class="times">TIME: 12:05am - 12:45pm</div>
+      <div class="subject">SUBJECT: POB</div>
+      <div class="room">ROOM: 4E</div>
+      <div class="teacher">TEACHER: MS. S. JOHNSON</div>
+    </div>
+    <div class="period">
+      <div class="times">TIME: 12:45am - 2:05pm</div>
+      <div class="subject">SUBJECT: LITERATURE</div>
+      <div class="room">ROOM: 4W</div>
+      <div class="teacher">TEACHER: MRS. MCLEARY-OUTAR</div>
+    </div>
+      <button class="nav-button previous" onclick="navigateTo('screen2')">Previous</button>
+      <button class="nav-button next" onclick="navigateTo('screen4')">Next</button>
+  </div>
+
+    <div id="screen4" class="screen">
+        <button class="back-button" onclick="navigateTo('landing-page')">Home</button>
+        <div class="image">
+        </div>
+      <h1>THURSDAY</h1>
+      <div class="period">
+          <div class="times">TIME: 8:05am - 8:45am</div>
+          <div class="subject">SUBJECT: SPANISH</div>
+          <div class="room">ROOM: JBL</div>
+          <div class="teacher"><span class="bold-text1">TEACHER: </span>MR. E. MORRELL</div>
+      </div>
+
+      <div class="period">
+        <div class="times">TIME: 8:45am - 9:25am</div>
+        <div class="subject">SUBJECT: LITERATURE</div>
+        <div class="room">ROOM: 4W</div>
+      <div class="teacher">TEACHER: MRS. MCLEARY-OUTAR</div>
+      </div>
+
+     <div class="period">
+      <div class="times">TIME: 9:25am - 10:45am</div>
+      <div class="subject">SUBJECT: PHYSICS</div>
+      <div class="room">ROOM: 4M</div>
+      <div class="teacher">TEACHER: MR. O. WILLIAMS</div>
+    </div>
+
+    <div class="period">
+      <div class="times">TIME: 10:45am - 11:25pm</div>
+      <div class="subject">BREAK</div>
+      <div class="room">ROOM: NONE</div>
+      <div class="teacher">TEACHER: NONE</div>
+    </div>
+
+    <div class="period">
+      <div class="times">TIME: 11:25am - 12:45pm</div>
+      <div class="subject">SUBJECT: ENGLISH LANGUAGE</div>
+      <div class="room">ROOM: 4L</div>
+      <div class="teacher">TEACHER: MS. I. JOSEPH</div>
+    </div>
+
+    <div class="period">
+      <div class="times">TIME: 12:45am - 2:05pm</div>
+      <div class="subject">SUBJECT: INFO TECH</div>
+      <div class="room">ROOM: CL2</div>
+      <div class="teacher">TEACHER: MR. D. BLACKWOOD</div>
+    </div>
+        <button class="nav-button previous" onclick="navigateTo('screen3')">Previous</button>
+        <button class="nav-button next" onclick="navigateTo('screen5')">Next</button>
+    </div>
+
+
+
+    <div id="screen5" class="screen">
+      <button class="back-button" onclick="navigateTo('landing-page')">Home</button>
+      <div class="image">
+      </div>
+
+      <h1>FRIDAY</h1>
+          <div class="period">
+          <div class="times">TIME: 8:05am - 9:25am</div>
+          <div class="subject">SUBJECT: SPANISH</div>
+          <div class="room">ROOM: JBL</div>
+          <div class="teacher"><span class="bold-text1">TEACHER: </span>MS. E. MORRELL</div>
+      </div>
+
+      <div class="period">
+        <div class="times">TIME: 9:25am - 10:45am</div>
+        <div class="subject">SUBJECT: MATHEMATICS</div>
+        <div class="room">ROOM: 17A</div>
+        <div class="teacher">TEACHER: MS. O. SHYIKO</div>
+      </div>
+
+     <div class="period">
+      <div class="times">TIME: 10:45am - 11:25am</div>
+      <div class="subject">BREAK</div>
+      <div class="room">ROOM: 4E</div>
+      <div class="teacher">TEACHER: MR. S. JOHNSON</div>
+    </div>
+
+    <div class="period">
+      <div class="times">TIME: 11:25am - 12:45pm</div>
+      <div class="subject">SUBJECT: POB</div>
+      <div class="room">ROOM: 4E</div>
+      <div class="teacher">TEACHER: MS. S. JOHNSON</div>
+    </div>
+    <div class="period">
+      <div class="times">TIME: 12:45am - 2:05pm</div>
+      <div class="subject">SUBJECT: ECONOMICS</div>
+      <div class="room">ROOM: 17B</div>
+      <div class="teacher">TEACHER: MS. M. MANNING</div>
+    </div>
+      <button class="nav-button previous" onclick="navigateTo('screen4')">Previous</button>
+      <button class="nav-button next" onclick="navigateTo('screen6')">Next</button>
+  </div>
+
+
+
+  <div id="screen6" class="screen">
+    <button class="back-button" onclick="navigateTo('landing-page')">Home</button>
+    <div class="image">
+    </div>
+    <h1>SATURDAY</h1>
+    <div class="period">
+        <div class="times">TIME: 8:00am - 10:00am</div>
+        <div class="subject">SUBJECT: HOME WORK</div>
+        <div class="room">ROOM: NONE</div>
+        <div class="teacher"><span class="bold-text1">TEACHER: </span>NONE</div>
+    </div>
+
+    <div class="period">
+      <div class="times">TIME: 10:00am - 12:00am</div>
+      <div class="subject">SUBJECT: STUDYING</div>
+      <div class="room">ROOM: NONE</div>
+      <div class="teacher"><span class="bold-text1">TEACHER: </span>NONE</div>
+  </div>
+  
+    <button class="nav-button previous" onclick="navigateTo('screen5')">Previous</button>
+    <button class="nav-button next" onclick="navigateTo('screen7')">Next</button>
+</div>
+
+
+
+<div id="screen7" class="screen">
+  <button class="back-button" onclick="navigateTo('landing-page')">Home</button>
+  <div class="image">
+  </div>
+  <h1>SUNDAY</h1>
+  <div class="period">
+      <div class="times">TIME: 8:00am - 10:00am</div>
+      <div class="subject">SUBJECT: STUDYING</div>
+      <div class="room">ROOM: NONE</div>
+      <div class="teacher"><span class="bold-text1">TEACHER: </span>NONE/div>
+  </div>
+
+  <button class="nav-button previous" onclick="navigateTo('screen6')">Previous</button>
+</div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
